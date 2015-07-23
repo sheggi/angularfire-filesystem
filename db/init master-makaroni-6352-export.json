@@ -1,0 +1,155 @@
+{
+  "fsdevice" : {
+    "-JhQ76OEK_848CkIFhAq" : {
+      "title" : "Cloud 1"
+    },
+    "-JusTlIpDBo4aYuMvMER" : {
+      "title" : "Cloud 2"
+    },
+    "-JuwXeg8HwOpoPzuvMzL" : {
+      "title" : "sdfgsdfg"
+    },
+    "-JuwZPdUWRnMeIOVbjGK" : {
+      "title" : "New Device"
+    }
+  },
+  "fsentity" : {
+    "-JhLeOlGIEjaIOFHR0xd" : {
+      "link" : "-Jtlx8V6-msA0ao0k8QT",
+      "title" : "Cloud 1",
+      "type" : "folder"
+    },
+    "-JhQ7APk0UtyRTFO9-TS" : {
+      "link" : "-Jtm-HsFPjUJ2C3oyGqI",
+      "title" : "File 1",
+      "type" : "file"
+    },
+    "-JusfcR40ADK3KUJDkH8" : {
+      "link" : "-JusfcR7zjNUNsap65uk",
+      "title" : "Cloud 2",
+      "type" : "folder"
+    },
+    "-JusgA8lSxQrm244TXr1" : {
+      "link" : "-JusgA8pMZOOtyuvUtKH",
+      "title" : "Folder 1",
+      "type" : "folder"
+    },
+    "-JusgCDaU5HIfl6QuOC3" : {
+      "link" : "-JusgCDcu4zG7WpYM3tp",
+      "title" : "Folder 2",
+      "type" : "folder"
+    },
+    "-Jush5zpZlWlfhxHARlo" : {
+      "link" : "-Jush5zsR9FuUsTAvqZE",
+      "title" : "Folder 3",
+      "type" : "folder"
+    },
+    "-JuslaSA9RjGFWQFX7fu" : {
+      "link" : "-JuslaSCYsqzUSGWQmTZ",
+      "title" : "File 4",
+      "type" : "file"
+    },
+    "-JusqRc6bRf_u3Z5njYA" : {
+      "link" : "-JusqRcApGra6k9IN2iK",
+      "title" : "Folder 5",
+      "type" : "folder"
+    },
+    "-JuwXeg8HwOpoPzuvMzM" : {
+      "link" : "-JuwXeg9GTsJHMu8fCs-",
+      "title" : "sdfgsdfg",
+      "type" : "folder"
+    },
+    "-JuwZPdUWRnMeIOVbjGL" : {
+      "link" : "-JuwZPdUWRnMeIOVbjGM",
+      "title" : "New Device",
+      "type" : "folder"
+    },
+    "-JuwnzuVbLDQiGZmUtSi" : {
+      "link" : "-JuwnzuVbLDQiGZmUtSj",
+      "title" : "asdf",
+      "type" : "folder"
+    },
+    "-Juwqjdn-31PwJRWdjzC" : {
+      "link" : "-Juwqjdn-31PwJRWdjzD",
+      "title" : "Lalaland",
+      "type" : "folder"
+    }
+  },
+  "fslink" : {
+    "-Jtlx8V6-msA0ao0k8QT" : {
+      "children" : {
+        "-JhQ7APk0UtyRTFO9-TS" : true,
+        "-Juwqjdn-31PwJRWdjzC" : true
+      },
+      "entity" : "-JhLeOlGIEjaIOFHR0xd",
+      "parent" : "-JhQ76OEK_848CkIFhAq",
+      "ptype" : "fsdevice"
+    },
+    "-Jtm-HsFPjUJ2C3oyGqI" : {
+      "children" : false,
+      "entity" : "-JhQ7APk0UtyRTFO9-TS",
+      "parent" : "-JhLeOlGIEjaIOFHR0xd"
+    },
+    "-JusfcR7zjNUNsap65uk" : {
+      "children" : {
+        "-JusgA8lSxQrm244TXr1" : true,
+        "-JusgCDaU5HIfl6QuOC3" : true,
+        "-Jush5zpZlWlfhxHARlo" : true,
+        "-JuslaSA9RjGFWQFX7fu" : true,
+        "-JusqRc6bRf_u3Z5njYA" : true
+      },
+      "entity" : "-JusfcR40ADK3KUJDkH8",
+      "parent" : "-JusTlIpDBo4aYuMvMER",
+      "ptype" : "fsdevice"
+    },
+    "-JusgA8pMZOOtyuvUtKH" : {
+      "children" : false,
+      "entity" : "-JusgA8lSxQrm244TXr1",
+      "parent" : "-JusfcR40ADK3KUJDkH8"
+    },
+    "-JusgCDcu4zG7WpYM3tp" : {
+      "children" : false,
+      "entity" : "-JusgCDaU5HIfl6QuOC3",
+      "parent" : "-JusfcR40ADK3KUJDkH8"
+    },
+    "-Jush5zsR9FuUsTAvqZE" : {
+      "children" : false,
+      "entity" : "-Jush5zpZlWlfhxHARlo",
+      "parent" : "-JusfcR40ADK3KUJDkH8"
+    },
+    "-JuslaSCYsqzUSGWQmTZ" : {
+      "children" : false,
+      "entity" : "-JuslaSA9RjGFWQFX7fu",
+      "parent" : "-JusfcR40ADK3KUJDkH8"
+    },
+    "-JusqRcApGra6k9IN2iK" : {
+      "children" : false,
+      "entity" : "-JusqRc6bRf_u3Z5njYA",
+      "parent" : "-JusfcR40ADK3KUJDkH8"
+    },
+    "-JuwXeg9GTsJHMu8fCs-" : {
+      "children" : {
+        "-JuwnzuVbLDQiGZmUtSi" : true
+      },
+      "entity" : "-JuwXeg8HwOpoPzuvMzM",
+      "parent" : "-JuwXeg8HwOpoPzuvMzL",
+      "ptype" : "fsdevice"
+    },
+    "-JuwZPdUWRnMeIOVbjGM" : {
+      "children" : false,
+      "entity" : "-JuwZPdUWRnMeIOVbjGL",
+      "parent" : "-JuwZPdUWRnMeIOVbjGK",
+      "ptype" : "fsdevice"
+    },
+    "-JuwnzuVbLDQiGZmUtSj" : {
+      "children" : false,
+      "entity" : "-JuwnzuVbLDQiGZmUtSi",
+      "parent" : "-JuwXeg8HwOpoPzuvMzM"
+    },
+    "-Juwqjdn-31PwJRWdjzD" : {
+      "children" : false,
+      "entity" : "-Juwqjdn-31PwJRWdjzC",
+      "parent" : "-JhLeOlGIEjaIOFHR0xd"
+    }
+  }
+}
